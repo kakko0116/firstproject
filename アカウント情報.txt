@@ -1,0 +1,14 @@
+○mysql
+C:\app\mysql\mysql-8.0.19-winx64>bin\mysqld --initialize --console
+2020-04-20T01:03:43.570218-15:00 0 [System] [MY-013169] [Server] C:\app\mysql\mysql-8.0.19-winx64\bin\mysqld.exe (mysqld 8.0.19) initializing of server in progress as process 20796
+2020-04-20T01:03:45.598965-15:00 5 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: *rljvNa>U2w!
+
+○アカウント
+root
+password
+
+○起動時
+
+C:\app\mysql-8.0.13-winx64-start.bat を実行する
+
+○停止時

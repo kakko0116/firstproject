@@ -1,0 +1,52 @@
+○実施手順元
+https://qiita.com/TsJazz27Sumin/items/aa4804cabff9eb1534e8
+
+★仮想環境構築
+C:\DEVELOP>pipenv --python 3.8.2
+Creating a virtualenv for this project…
+Pipfile: C:\DEVELOP\Pipfile
+Using C:/Users/owner/AppData/Local/Programs/Python/Python38/python.exe (3.8.2) to create virtualenv…
+[=== ] Creating virtual environment...created virtual environment CPython3.8.2.final.0-64 in 2015ms
+
+  creator CPython3Windows(dest=C:\Users\owner\.virtualenvs\DEVELOP-8GILKWLo, clear=False, global=False)
+
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=C:\Users\owner\AppData\Local\pypa\virtualenv\seed-app-data\v1.0.1)
+
+  activators BashActivator,BatchActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+
+Successfully created virtual environment!
+Virtualenv location: C:\Users\owner\.virtualenvs\DEVELOP-8GILKWLo
+Creating a Pipfile for this project…
+
+
+★仮想環境起動
+C:\DEVELOP\firstproject>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+April 23, 2020 - 02:34:03
+Django version 3.0.5, using settings 'firstproject.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[23/Apr/2020 02:34:16] "GET / HTTP/1.1" 200 16351
+[23/Apr/2020 02:34:16] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[23/Apr/2020 02:34:16] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[23/Apr/2020 02:34:16] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[23/Apr/2020 02:34:16] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+Not Found: /favicon.ico
+[23/Apr/2020 02:34:16] "GET /favicon.ico HTTP/1.1" 404 1978
+
+
+★mysql install
+https://qiita.com/rubytomato@github/items/b0e61cb6fe1068d55c40
+https://visualstudio.microsoft.com/ja/downloads/
+
+
+
+○Gitを使う方法
+https://qiita.com/y-tsutsu/items/2ba96b16b220fb5913be#%E3%82%B3%E3%83%9F%E3%83%83%E3%83%88%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B
+
