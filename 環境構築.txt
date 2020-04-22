@@ -1,5 +1,8 @@
 ○実施手順元
 https://qiita.com/TsJazz27Sumin/items/aa4804cabff9eb1534e8
+○DBをmysql にする方法
+https://qiita.com/nikoro/items/903fcbef2829e1c88300
+
 
 ★仮想環境構築
 C:\DEVELOP>pipenv --python 3.8.2
@@ -40,10 +43,21 @@ Quit the server with CTRL-BREAK.
 Not Found: /favicon.ico
 [23/Apr/2020 02:34:16] "GET /favicon.ico HTTP/1.1" 404 1978
 
+C:\DEVELOP\firstproject\tool>pip install mysqlclient-1.4.6-cp38-cp38-win_amd64.whl
+Processing c:\develop\firstproject\tool\mysqlclient-1.4.6-cp38-cp38-win_amd64.whl
+Installing collected packages: mysqlclient
+Successfully installed mysqlclient-1.4.6
+
 
 ★mysql install
 https://qiita.com/rubytomato@github/items/b0e61cb6fe1068d55c40
 https://visualstudio.microsoft.com/ja/downloads/
+
+
+○テーブル変更時（参考URL：https://qiita.com/nikoro/items/903fcbef2829e1c88300）
+python manage.py makemigrattions
+
+python manage.py migrate
 
 
 
